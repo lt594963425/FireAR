@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcMenu">
+        <attr name="position" />
+        <attr name="radius" />
+        <attr name="mainButton_layout_marginBottom" />
+        <attr name="childButton_padding_LeftAndRight" />
+        <attr name="childButton_padding_TopAndBottom" />
+        <attr name="childButton_gap" />
+        <attr name="mainButton_open_img" />
+        <attr name="mainButton_close_img" />
+    </declare-styleable>
+
+    <!-- RippleLayout -->
+    <declare-styleable name="RippleLayout">
+        <attr name="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="duration" format="integer" />
+        <attr name="rippleNums" format="integer" />
+        <attr name="scale" format="float" />
+    </declare-styleable>
+</resources>
